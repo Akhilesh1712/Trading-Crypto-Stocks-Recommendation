@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: aliceblue;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stocks Risk Management AI</title>
+    <link rel="stylesheet" href="stock.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stocks Risk Management AI</h1>
+        <div class="input-group">
+            <label for="portfolio-value">Enter Portfolio Value:</label>
+            <input type="number" id="portfolio-value" placeholder="Enter portfolio value...">
+        </div>
+        <div class="input-group">
+            <label for="risk-percentage">Enter Risk Tolerance (%):</label>
+            <input type="number" id="risk-percentage" placeholder="Enter risk tolerance...">
+        </div>
+        <button onclick="calculatePositionSize()">Calculate Position Size</button>
+        <div id="position-size"></div>
+    </div>
+
+    <script src="stock.js"></script>
+</body>
+</html>

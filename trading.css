@@ -1,0 +1,52 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .recommendation {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .recommendation:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .recommendation h2 {
+    margin-top: 0;
+  }
+  
+  .recommendation p {
+    margin: 10px 0;
+  }
+  
+  .recommendation .chart-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .recommendation .chart-link:hover {
+    text-decoration: underline;
+  }
+  
